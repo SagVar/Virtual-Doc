@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sagar.virtualdoc.result">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Disease :"
+                android:id="@+id/disease"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dname"
+                android:layout_below="@+id/disease"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+
+           
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/remedies"
+                android:text="Remedies :"
+                android:layout_below="@+id/dname"
+                android:layout_marginTop="10dp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rname"
+                android:layout_below="@+id/remedies"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/precautions"
+                android:text="Precautions :"
+                android:layout_below="@+id/rname"
+                android:layout_marginTop="10dp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pname"
+                android:layout_below="@+id/precautions"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:id="@+id/infectious"
+                android:text="Infectious :"
+                android:layout_below="@+id/pname"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"/>
+            
+             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/yn"
+                android:layout_below="@+id/infectious"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"/>
+
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/references"
+                android:text="References :"
+                android:layout_below="@+id/yn"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp" />
+
+         
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/refname"
+                android:layout_below="@+id/references"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:textColor="#ff235eff"
+                android:textIsSelectable="true"
+                android:textColorLink="#ff235eff" />
+            </RelativeLayout>
+
+
+        </ScrollView>
+
+</RelativeLayout>

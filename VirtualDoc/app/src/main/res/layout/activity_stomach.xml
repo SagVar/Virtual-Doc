@@ -1,0 +1,383 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sagar.virtualdoc.Stomach">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Symptoms :"
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#ffc0076f" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="310dp"
+        android:layout_marginTop="70dp">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Constipation"
+                android:id="@+id/checkBox26"
+                android:layout_marginTop="0dp"
+                android:textSize="20sp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sense of urgency to have a bowel movement"
+                android:id="@+id/checkBox27"
+                android:layout_below="@+id/checkBox26"
+                android:layout_alignLeft="@+id/checkBox26"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vomiting"
+                android:id="@+id/checkBox28"
+                android:layout_below="@+id/checkBox27"
+                android:layout_alignLeft="@+id/checkBox27"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood, mucus in stool"
+                android:id="@+id/checkBox29"
+                android:layout_below="@+id/checkBox28"
+                android:layout_alignLeft="@+id/checkBox28"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight Loss"
+                android:id="@+id/checkBox30"
+                android:layout_below="@+id/checkBox29"
+                android:layout_alignLeft="@+id/checkBox29"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temporary Confusion"
+                android:id="@+id/checkBox31"
+                android:layout_below="@+id/checkBox30"
+                android:layout_alignLeft="@+id/checkBox30"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a staring spell"
+                android:id="@+id/checkBox32"
+                android:layout_below="@+id/checkBox31"
+                android:layout_alignLeft="@+id/checkBox31"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="uncontrollable jerking movement of arms and legs"
+                android:id="@+id/checkBox33"
+                android:layout_below="@+id/checkBox32"
+                android:layout_alignLeft="@+id/checkBox32"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="loss of consciousness or awareness"
+                android:id="@+id/checkBox34"
+                android:layout_below="@+id/checkBox33"
+                android:layout_alignLeft="@+id/checkBox33"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="psychic symptoms"
+                android:id="@+id/checkBox35"
+                android:layout_below="@+id/checkBox34"
+                android:layout_alignLeft="@+id/checkBox34"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dark urine"
+                android:id="@+id/checkBox36"
+                android:layout_below="@+id/checkBox35"
+                android:layout_alignLeft="@+id/checkBox35"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="yellowing of skin and whites of eyes"
+                android:id="@+id/checkBox37"
+                android:layout_below="@+id/checkBox36"
+                android:layout_alignLeft="@+id/checkBox36"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="frequent urination"
+                android:id="@+id/checkBox38"
+                android:layout_below="@+id/checkBox37"
+                android:layout_alignLeft="@+id/checkBox37"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sugar in urine"
+                android:id="@+id/checkBox39"
+                android:layout_below="@+id/checkBox38"
+                android:layout_alignLeft="@+id/checkBox38"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="blurred vision"
+                android:id="@+id/checkBox40"
+                android:layout_below="@+id/checkBox39"
+                android:layout_alignLeft="@+id/checkBox39"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="weight gain"
+                android:id="@+id/checkBox41"
+                android:layout_below="@+id/checkBox40"
+                android:layout_alignLeft="@+id/checkBox40"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hoarseness"
+                android:id="@+id/checkBox42"
+                android:layout_below="@+id/checkBox41"
+                android:layout_alignLeft="@+id/checkBox41"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="elevated blood cholesterol level"
+                android:id="@+id/checkBox43"
+                android:layout_below="@+id/checkBox42"
+                android:layout_alignLeft="@+id/checkBox42"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="heavier than normal or irregular menstrual periods"
+                android:id="@+id/checkBox44"
+                android:layout_below="@+id/checkBox43"
+                android:layout_alignLeft="@+id/checkBox43"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="decreased libido"
+                android:id="@+id/checkBox45"
+                android:layout_below="@+id/checkBox44"
+                android:layout_alignLeft="@+id/checkBox44"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="memory loss"
+                android:id="@+id/checkBox46"
+                android:layout_below="@+id/checkBox45"
+                android:layout_alignLeft="@+id/checkBox45"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hair loss"
+                android:id="@+id/checkBox47"
+                android:layout_below="@+id/checkBox46"
+                android:layout_alignLeft="@+id/checkBox46"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="depression"
+                android:id="@+id/checkBox48"
+                android:layout_below="@+id/checkBox47"
+                android:layout_alignLeft="@+id/checkBox47"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="extreme hunger"
+                android:id="@+id/checkBox49"
+                android:layout_below="@+id/checkBox48"
+                android:layout_alignLeft="@+id/checkBox48"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sudden vision change"
+                android:id="@+id/checkBox50"
+                android:layout_below="@+id/checkBox49"
+                android:layout_alignLeft="@+id/checkBox49"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tingling and numbness in hands or feet"
+                android:id="@+id/checkBox51"
+                android:layout_below="@+id/checkBox50"
+                android:layout_alignLeft="@+id/checkBox50"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="more infections than usuals"
+                android:id="@+id/checkBox52"
+                android:layout_below="@+id/checkBox51"
+                android:layout_alignLeft="@+id/checkBox51"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bleeding"
+                android:id="@+id/checkBox53"
+                android:layout_below="@+id/checkBox52"
+                android:layout_alignLeft="@+id/checkBox52"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="difficulty in concentration"
+                android:id="@+id/checkBox54"
+                android:layout_below="@+id/checkBox53"
+                android:layout_alignLeft="@+id/checkBox53"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pale body"
+                android:id="@+id/checkBox55"
+                android:layout_below="@+id/checkBox54"
+                android:layout_alignLeft="@+id/checkBox54"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="insomania"
+                android:id="@+id/checkBox56"
+                android:layout_below="@+id/checkBox55"
+                android:layout_alignLeft="@+id/checkBox55"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pink,red or brown urine"
+                android:id="@+id/checkBox57"
+                android:layout_below="@+id/checkBox56"
+                android:layout_alignLeft="@+id/checkBox56"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cloudy or foul smelling urine"
+                android:id="@+id/checkBox58"
+                android:layout_below="@+id/checkBox57"
+                android:layout_alignLeft="@+id/checkBox57"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="more sweating"
+                android:id="@+id/checkBox59"
+                android:layout_below="@+id/checkBox58"
+                android:layout_alignLeft="@+id/checkBox58"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onStomachCheckboxClicked"/>
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:text="CONT>>"
+        android:id="@+id/button16"
+        android:textSize="20sp"
+        android:minWidth="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="onStomachButtonClicked"/>
+
+</RelativeLayout>

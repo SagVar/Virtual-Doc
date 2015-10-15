@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sagar.virtualdoc.Back">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Symptoms :"
+        android:id="@+id/textView14"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#ffc0076f" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="310dp"
+        android:layout_marginTop="90dp">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pain"
+                android:id="@+id/checkBox60"
+                android:layout_marginTop="0dp"
+                android:textSize="20sp"
+                android:onClick="onBackCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="joint swelling"
+                android:id="@+id/checkBox61"
+                android:layout_below="@+id/checkBox60"
+                android:layout_alignLeft="@+id/checkBox60"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onBackCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fractured or collapsed vertebra"
+                android:id="@+id/checkBox62"
+                android:layout_below="@+id/checkBox61"
+                android:layout_alignLeft="@+id/checkBox61"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onBackCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="loss of height over time"
+                android:id="@+id/checkBox63"
+                android:layout_below="@+id/checkBox62"
+                android:layout_alignLeft="@+id/checkBox62"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onBackCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a stooped posture"
+                android:id="@+id/checkBox64"
+                android:layout_below="@+id/checkBox63"
+                android:layout_alignLeft="@+id/checkBox63"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onBackCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="thin bones"
+                android:id="@+id/checkBox65"
+                android:layout_below="@+id/checkBox64"
+                android:layout_alignLeft="@+id/checkBox64"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onBackCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="deformity of an arm or leg"
+                android:id="@+id/checkBox66"
+                android:layout_below="@+id/checkBox65"
+                android:layout_alignLeft="@+id/checkBox65"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onBackCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="loss of functions in injured area"
+                android:id="@+id/checkBox67"
+                android:layout_below="@+id/checkBox66"
+                android:layout_alignLeft="@+id/checkBox66"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onBackCheckboxClicked"/>
+    </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:text="CONT>>"
+        android:id="@+id/button17"
+        android:textSize="20sp"
+        android:minWidth="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="onBackButtonClicked"/>
+</RelativeLayout>

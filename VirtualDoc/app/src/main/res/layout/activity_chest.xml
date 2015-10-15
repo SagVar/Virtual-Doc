@@ -1,0 +1,258 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sagar.virtualdoc.Chest">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Symptoms :"
+        android:id="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#ffc0076f" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="310dp"
+        android:layout_marginTop="70dp">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fatigue"
+                android:id="@+id/checkBox8"
+                android:layout_marginTop="0dp"
+                android:textSize="20sp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="red rash on body"
+                android:id="@+id/checkBox9"
+                android:layout_below="@+id/checkBox8"
+                android:layout_alignLeft="@+id/checkBox8"
+                android:layout_alignStart="@+id/checkBox8"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fever"
+                android:id="@+id/checkBox10"
+                android:layout_below="@+id/checkBox9"
+                android:layout_alignLeft="@+id/checkBox9"
+                android:layout_alignStart="@+id/checkBox9"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="loss of appetite"
+                android:id="@+id/checkBox11"
+                android:layout_below="@+id/checkBox10"
+                android:layout_alignLeft="@+id/checkBox10"
+                android:layout_alignStart="@+id/checkBox10"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="headache/nausea"
+                android:id="@+id/checkBox12"
+                android:textSize="20sp"
+                android:layout_below="@+id/checkBox11"
+                android:layout_alignLeft="@+id/checkBox11"
+                android:layout_alignStart="@+id/checkBox11"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pain"
+                android:id="@+id/checkBox13"
+                android:layout_below="@+id/checkBox12"
+                android:layout_alignLeft="@+id/checkBox12"
+                android:layout_alignStart="@+id/checkBox12"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="joint swelling"
+                android:id="@+id/checkBox14"
+                android:layout_below="@+id/checkBox13"
+                android:layout_alignLeft="@+id/checkBox13"
+                android:layout_alignStart="@+id/checkBox13"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wheezing"
+                android:id="@+id/checkBox15"
+                android:layout_below="@+id/checkBox14"
+                android:layout_alignLeft="@+id/checkBox14"
+                android:layout_alignStart="@+id/checkBox14"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scratchy or whistling sound while breathing"
+                android:id="@+id/checkBox16"
+                android:layout_below="@+id/checkBox15"
+                android:layout_alignLeft="@+id/checkBox15"
+                android:layout_alignStart="@+id/checkBox15"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="shortness of breath / chest tightness"
+                android:id="@+id/checkBox17"
+                android:layout_below="@+id/checkBox16"
+                android:layout_alignLeft="@+id/checkBox16"
+                android:layout_alignStart="@+id/checkBox16"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="coughing"
+                android:id="@+id/checkBox18"
+                android:layout_below="@+id/checkBox17"
+                android:layout_alignLeft="@+id/checkBox19"
+                android:layout_alignStart="@+id/checkBox19"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cold / runny nose"
+                android:id="@+id/checkBox19"
+                android:layout_below="@+id/checkBox18"
+                android:layout_alignLeft="@+id/checkBox15"
+                android:layout_alignStart="@+id/checkBox15"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dryness / less sweat"
+                android:id="@+id/checkBox20"
+                android:layout_below="@+id/checkBox19"
+                android:layout_alignLeft="@+id/checkBox19"
+                android:layout_alignStart="@+id/checkBox19"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="weight loss"
+                android:id="@+id/checkBox21"
+                android:layout_below="@+id/checkBox20"
+                android:layout_alignLeft="@+id/checkBox20"
+                android:layout_alignStart="@+id/checkBox20"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="temporary confusion"
+                android:id="@+id/checkBox22"
+                android:layout_below="@+id/checkBox21"
+                android:layout_alignLeft="@+id/checkBox21"
+                android:layout_alignStart="@+id/checkBox21"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="more sweating"
+                android:id="@+id/checkBox23"
+                android:layout_below="@+id/checkBox22"
+                android:layout_alignLeft="@+id/checkBox22"
+                android:layout_alignStart="@+id/checkBox22"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="respiratory failures"
+                android:id="@+id/checkBox24"
+                android:layout_below="@+id/checkBox23"
+                android:layout_alignLeft="@+id/checkBox23"
+                android:layout_alignStart="@+id/checkBox23"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="problems with blood clotting"
+                android:id="@+id/checkBox25"
+                android:layout_below="@+id/checkBox24"
+                android:layout_alignLeft="@+id/checkBox24"
+                android:layout_alignStart="@+id/checkBox24"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onChestCheckboxClicked"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:text="CONT>>"
+        android:id="@+id/button15"
+        android:textSize="20sp"
+        android:minWidth="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="onChestButtonClicked"/>
+
+</RelativeLayout>

@@ -1,0 +1,230 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sagar.virtualdoc.Head">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Symptoms :"
+        android:id="@+id/textView9"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#ffc0076f" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="310dp"
+        android:layout_marginTop="70dp">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fatigue"
+                android:id="@+id/checkBox63"
+                android:layout_marginTop="0dp"
+                android:textSize="20sp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="red rash on body"
+                android:id="@+id/checkBox64"
+                android:layout_below="@+id/checkBox63"
+                android:layout_alignLeft="@+id/checkBox63"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fever"
+                android:id="@+id/checkBox65"
+                android:layout_below="@+id/checkBox64"
+                android:layout_alignLeft="@+id/checkBox64"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="headache/nausea"
+                android:id="@+id/checkBox66"
+                android:layout_below="@+id/checkBox65"
+                android:layout_alignLeft="@+id/checkBox65"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rapid heart / pulse rate"
+                android:id="@+id/checkBox67"
+                android:layout_below="@+id/checkBox66"
+                android:layout_alignLeft="@+id/checkBox66"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pain"
+                android:id="@+id/checkBox68"
+                android:layout_below="@+id/checkBox67"
+                android:layout_alignLeft="@+id/checkBox67"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="joint swelling"
+                android:id="@+id/checkBox69"
+                android:layout_below="@+id/checkBox68"
+                android:layout_alignLeft="@+id/checkBox68"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="shortness of breath / chest tightness"
+                android:id="@+id/checkBox70"
+                android:layout_below="@+id/checkBox69"
+                android:layout_alignLeft="@+id/checkBox69"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="temporary confusion"
+                android:id="@+id/checkBox71"
+                android:layout_below="@+id/checkBox70"
+                android:layout_alignLeft="@+id/checkBox70"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a staring spell"
+                android:id="@+id/checkBox72"
+                android:layout_below="@+id/checkBox71"
+                android:layout_alignLeft="@+id/checkBox71"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="uncontrollable jerking movement of arms and legs"
+                android:id="@+id/checkBox73"
+                android:layout_below="@+id/checkBox72"
+                android:layout_alignLeft="@+id/checkBox72"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="loss of consciousness or awareness"
+                android:id="@+id/checkBox74"
+                android:layout_below="@+id/checkBox73"
+                android:layout_alignLeft="@+id/checkBox73"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="psychic symptoms"
+                android:id="@+id/checkBox75"
+                android:layout_below="@+id/checkBox74"
+                android:layout_alignLeft="@+id/checkBox74"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bleeding"
+                android:id="@+id/checkBox76"
+                android:layout_below="@+id/checkBox75"
+                android:layout_alignLeft="@+id/checkBox75"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="difficulty in concentration"
+                android:id="@+id/checkBox77"
+                android:layout_below="@+id/checkBox76"
+                android:layout_alignLeft="@+id/checkBox76"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pale body"
+                android:id="@+id/checkBox78"
+                android:layout_below="@+id/checkBox77"
+                android:layout_alignLeft="@+id/checkBox77"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="insomnia"
+                android:id="@+id/checkBox62"
+                android:layout_below="@+id/checkBox78"
+                android:layout_alignLeft="@+id/checkBox78"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:onClick="onHeadCheckboxClicked"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:text="CONT>>"
+        android:id="@+id/button12"
+        android:textSize="20sp"
+        android:minWidth="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="onHeadButtonClicked"/>
+
+</RelativeLayout>

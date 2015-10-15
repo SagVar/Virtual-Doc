@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context="com.example.sagar.virtualdoc.Upperactivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select body part:"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:textStyle="italic"
+        android:textColor="#ffc0076f"
+        android:layout_marginTop="5dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:transitionGroup="false">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eye"
+        android:id="@+id/radioButton4"
+        android:layout_marginTop="55dp"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/radioButton7"
+        android:layout_alignStart="@+id/radioButton7"
+        android:onClick="onURadioButtonClicked"
+        style="@style/CodeFont"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ear"
+        android:id="@+id/radioButton5"
+        android:textSize="25sp"
+        android:layout_below="@+id/radioButton4"
+        android:layout_alignLeft="@+id/radioButton4"
+        android:layout_alignStart="@+id/radioButton4"
+        android:layout_marginTop="10dp"
+        android:onClick="onURadioButtonClicked"
+        style="@style/CodeFont"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nose"
+        android:id="@+id/radioButton6"
+        android:textSize="25sp"
+        android:layout_below="@+id/radioButton5"
+        android:layout_alignLeft="@+id/radioButton7"
+        android:layout_alignStart="@+id/radioButton7"
+        android:layout_marginTop="10dp"
+        android:onClick="onURadioButtonClicked"
+        style="@style/CodeFont"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mouth"
+        android:id="@+id/radioButton7"
+        android:layout_below="@+id/radioButton6"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:onClick="onURadioButtonClicked"
+        style="@style/CodeFont"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Head"
+        android:id="@+id/radioButton8"
+        android:textSize="25sp"
+        android:layout_below="@+id/radioButton7"
+        android:layout_alignLeft="@+id/radioButton7"
+        android:layout_alignStart="@+id/radioButton7"
+        android:layout_marginTop="10dp"
+        android:onClick="onURadioButtonClicked"
+        style="@style/CodeFont"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:text="&lt;&lt;Back"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginBottom="42dp"
+        android:textSize="20sp"
+        android:minWidth="100dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:text="CONT>>"
+        android:id="@+id/button3"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:minWidth="100dp"/>
+</RelativeLayout>

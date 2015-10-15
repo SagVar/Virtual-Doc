@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sagar.virtualdoc" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/vd"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2Activity"
+            android:label="@string/title_activity_main_activity2" >
+        </activity>
+        <activity
+            android:name=".Upperactivity"
+            android:label="@string/title_activity_upperactivity" >
+        </activity>
+        <activity
+            android:name=".middleactivity"
+            android:label="@string/title_activity_middleactivity" >
+        </activity>
+        <activity
+            android:name=".Loweractivity"
+            android:label="@string/title_activity_loweractivity" >
+        </activity>
+        <activity
+            android:name=".Eye"
+            android:label="@string/title_activity_eye" >
+            <meta-data
+                android:name="android.support.activity_eye"
+                android:value="com.example.sagar.activity_upperactivity" />
+        </activity>
+        <activity
+            android:name=".Ear"
+            android:label="@string/title_activity_ear" >
+            <meta-data
+                android:name="android.support.activity_ear"
+                android:value="com.example.sagar.activity_upperactivity" />
+        </activity>
+        <activity
+            android:name=".Nose"
+            android:label="@string/title_activity_nose" >
+            <meta-data
+                android:name="android.support.activity_nose"
+                android:value="com.example.sagar.activity_upperactivity" />
+        </activity>
+        <activity
+            android:name=".Mouth"
+            android:label="@string/title_activity_mouth" >
+            <meta-data
+                android:name="android.support.activity_mouth"
+                android:value="com.example.sagar.activity_upperactivity" />
+        </activity>
+        <activity
+            android:name=".Head"
+            android:label="@string/title_activity_head" >
+            <meta-data
+                android:name="android.support.activity_head"
+                android:value="com.example.sagar.activity_upperactivity" />
+        </activity>
+        <activity
+            android:name=".Hands"
+            android:label="@string/title_activity_hands" >
+            <meta-data
+                android:name="android.support.activity_hands"
+                android:value="com.example.sagar.activity_middleactivity" />
+        </activity>
+        <activity
+            android:name=".Chest"
+            android:label="@string/title_activity_chest" >
+            <meta-data
+                android:name="android.support.activity_chest"
+                android:value="com.example.sagar.activity_middleactivity" />
+        </activity>
+        <activity
+            android:name=".Stomach"
+            android:label="@string/title_activity_stomach" >
+            <meta-data
+                android:name="android.support.activity_stomach"
+                android:value="com.example.sagar.activity_middleactivity" />
+        </activity>
+        <activity
+            android:name=".Back"
+            android:label="@string/title_activity_back" >
+            <meta-data
+                android:name="android.support.activity_back"
+                android:value="com.example.sagar.activity_middleactivity" />
+        </activity>
+        <activity
+            android:name=".Skin"
+            android:label="@string/title_activity_skin" >
+            <meta-data
+                android:name="android.support.activity_skin"
+                android:value="com.example.sagar.activity_middleactivity" />
+        </activity>
+        <activity
+            android:name=".Legs"
+            android:label="@string/title_activity_legs" >
+            <meta-data
+                android:name="android.support.activity_legs"
+                android:value="com.example.sagar.activity_loweractivity" />
+        </activity>
+        <activity
+            android:name=".Knee"
+            android:label="@string/title_activity_knee" >
+            <meta-data
+                android:name="android.support.activity_knee"
+                android:value="com.example.sagar.activity_loweractivity" />
+        </activity>
+        <activity
+            android:name=".SkinL"
+            android:label="@string/title_activity_skin_l" >
+            <meta-data
+                android:name="android.support.activity_skin_l"
+                android:value="com.example.sagar.activity_loweractivity" />
+        </activity>
+        <activity
+            android:name=".GroinL"
+            android:label="@string/title_activity_groin_l" >
+            <meta-data
+                android:name="android.support.activity_groin_l"
+                android:value="com.example.sagar.activity_loweractivity" />
+        </activity>
+        <activity
+            android:name=".result"
+            android:label="@string/title_activity_result" >
+        </activity>
+    </application>
+
+</manifest>
